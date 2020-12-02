@@ -1,0 +1,37 @@
+.btn{
+    background: #FFC591;
+    width: 373px;
+    height: 61px;
+    border-radius: 15px;
+    border: none;
+    margin: 15px;
+    box-shadow: 2px 2px 4px 0px #00000030;
+    cursor: pointer;
+    color: #803d71;
+    font-size: 25px;
+
+    &:hover{
+        background: #ff9b44;
+        color: white;
+    }
+
+    &--form{
+        height: 50px;
+        background: #BF66D6;
+        color: white;
+        width: 450px;
+        margin-top: 25px;
+        border-radius: 12px;
+
+        &:hover{
+            background-color:  #a51bc7;
+        }
+    }
+    
+}
+
+
+.btnText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}

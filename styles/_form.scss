@@ -1,0 +1,37 @@
+.form{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 500px;
+    align-items: center;
+
+
+    &__label{
+        margin-top: 30px;
+    }
+
+    &__titles{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #BF66D6;
+           
+        }
+
+    &__input{
+        width: 450px;
+        height: 50px;
+        border-radius: 12px;
+        border-color: #BF66D6;
+        border-style: solid;
+    }
+
+    &__error{
+        color: red;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+    }
+  }

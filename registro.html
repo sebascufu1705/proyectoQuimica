@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuimiQuiz - Registro
+    </title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body class="body">
+    <main class="main">
+        <h3 class="h3 h3--form">Registro</h3>
+        <form class="form signUp">
+            <label class="form__label"> 
+                <p class="form__titles">Nombre</p>
+                <input required class="form__input" name="name" type="text">
+            </label>
+            <label class="form__label"> 
+                <p class="form__titles">Correo</p> 
+                <input required class="form__input" name="email" type="email">
+            </label>
+            <label class="form__label">
+                <p class="form__titles">Contraseña</p>
+                <input required class="form__input" name="passWord" type="password">
+            </label>
+
+            <p class="form__error hidden">Ya existe un usuario registrado con este correo.</p>
+            
+            <button type="submit" class="btn btn--form">Registrarme</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
