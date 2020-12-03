@@ -17,6 +17,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
+  color: rgba(0, 0, 0, 0.767);
 }
 
 .hidden {
@@ -59,6 +60,20 @@
 
 .h3--form {
   color: #BF66D6;
+}
+
+.header {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .btn {
