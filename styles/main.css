@@ -20,6 +20,17 @@
   color: rgba(0, 0, 0, 0.767);
 }
 
+.h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+}
+
+.h2--form {
+  color: #BF66D6;
+}
+
 .hidden {
   display: none;
 }
@@ -54,12 +65,8 @@
 
 .h3 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.h3--form {
-  color: #BF66D6;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .header {
@@ -74,6 +81,64 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.header--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #502bb4;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav img {
+  width: 305px;
+  height: 70px;
+}
+
+.nav select {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #502bb4;
+  background: transparent;
+  width: 200px;
 }
 
 .btn {
@@ -146,6 +211,10 @@
   border-radius: 12px;
   border-color: #BF66D6;
   border-style: solid;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding-left: 10px;
+  font-size: 18px;
 }
 
 .form__error {
@@ -153,6 +222,66 @@
   font-size: 18px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
+}
+
+.signOut {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.tablaPerio {
+  width: 90%;
+}
+
+.mainProgreso {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.period {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #91DFFF;
+  border-radius: 20px;
+}
+
+.goalsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  background: #4dc3f1;
+}
+
+.goal {
+  width: 90%;
+  height: 90px;
+  background-image: url("../img/goalBack.png");
 }
 
 * {

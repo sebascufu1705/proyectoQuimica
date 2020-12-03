@@ -14,12 +14,8 @@
 
 .h3{
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-
-    &--form{
-        color: #BF66D6;
-    }
+    font-weight: 600;
+    font-size: 25px;
 }
 
 .header{
@@ -27,4 +23,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+
+    &--nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    justify-content: space-evenly;
+}
+
+.nav p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #502bb4;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav img{
+    width: 305px;
+    height: 70px;
+}
+
+.nav select{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #502bb4;
+    background: transparent;
+    width: 200px;
 }
