@@ -25,6 +25,8 @@
   font-weight: 600;
   font-size: 30px;
   color: black;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .h2--form {
@@ -67,6 +69,12 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 25px;
+}
+
+.h3--progreso {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .header {
@@ -236,6 +244,12 @@
   width: 90%;
 }
 
+.normalText {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .mainProgreso {
   width: 100%;
   display: -webkit-box;
@@ -250,8 +264,8 @@
           align-items: center;
 }
 
-.period {
-  width: 75%;
+.infoContainer {
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,8 +276,23 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.period {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   background: #91DFFF;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .goalsContainer {
@@ -274,14 +303,33 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 90%;
-  background: #4dc3f1;
+  width: 100%;
+  background: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .goal {
-  width: 90%;
-  height: 90px;
+  width: 95%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
   background-image: url("../img/goalBack.png");
+  background-size: contain;
+  border-radius: 15px;
+  padding-right: 80px;
+  padding-left: 20px;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.goal--checked {
+  background-image: url("../img/goalChecked.png");
 }
 
 * {

@@ -36,13 +36,17 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 90%;
-  background: #4dc3f1;
+  width: 100%;
+  background: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .goal {
   width: 90%;
   height: 90px;
   background-image: url("../img/goalBack.png");
+  background-size: cover;
 }
 /*# sourceMappingURL=progreso.css.map */
