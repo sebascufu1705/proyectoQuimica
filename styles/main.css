@@ -318,7 +318,7 @@
   display: flex;
   margin-bottom: 20px;
   background-image: url("../img/goalBack.png");
-  background-size: contain;
+  background-size: cover;
   border-radius: 15px;
   padding-right: 80px;
   padding-left: 20px;

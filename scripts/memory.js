@@ -4,8 +4,9 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 let matched =0;
-let time =120;
+let time =180;
 let puntuacion=0;
+
 if(matched<14){
 setInterval( function(){
   
@@ -114,3 +115,7 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+window.localStorage.setItem('tiempo', time);
+window.localStorage.setItem('puntuacion', puntuacion);
+window.localStorage.setItem('progreso', matched);
