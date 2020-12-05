@@ -7,7 +7,7 @@ let matched =0;
 let time =180;
 let puntuacion=0;
 
-if(matched<14){
+if(matched<13){
 setInterval( function(){
   
     time--;
@@ -71,13 +71,10 @@ function checkForMatch() {
 }
 
 function ActivityFinish(){
-  window.location.href = 'resultadosMemoria.html';
-  
-  id=document.getElementById("resultados");
-    id.innerHTML= `<h1>Tiempo: ${time} </h1>
-    <h1>Puntuacion:X${puntuacion}</h1><img src="./img/estrella.png" alt="estrella">
-    <h1>Progreso: ${matched}/14 </h1>`;
-    
+  window.localStorage.setItem('tiempo', time);
+window.localStorage.setItem('puntuacion', puntuacion);
+window.localStorage.setItem('progreso', matched);
+  window.location.href = 'resultadosMemoria.html'; 
 }
 
 
@@ -85,9 +82,12 @@ function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
   matched+=1;
+  if(matched==13){
+    ActivityFinish();
+  }
   console.log(matched);
   id=document.getElementById("matched");
-    id.innerHTML= `<img src="./img/progres.png" alt=""> <h2>${matched}/14</h2>`;
+    id.innerHTML= `<img src="./img/progres.png" alt=""> <h2>${matched}/13</h2>`;
   resetBoard();
 }
 
@@ -116,6 +116,3 @@ function resetBoard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-window.localStorage.setItem('tiempo', time);
-window.localStorage.setItem('puntuacion', puntuacion);
-window.localStorage.setItem('progreso', matched);
