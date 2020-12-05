@@ -10,10 +10,26 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 
-<body>
+<body class="body">
+<article class="puntuacion">
+  <div id="estrellas">
+    <img src="./img/estrella.png" alt="estrella">
+  </div>
+ 
+  
+  <div class=" contador"> 
+  <h1 id="count">10</h1>
+
+  <div id="matched"><img src="./img/progres.png" alt=""><h2>0/14</h2></div>
+
+</div>
+</article>
+
+
+
     <section class="memory-game">
         <div class="memory-card" data-framework="carbono">
-          <img class="front-face" src="./img/carbonoMe.png" alt="carbono" />
+          <img class="front-face" src="./img/carbonoIcon.png" alt="carbono" />
           <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
         </div>
         <div class="memory-card" data-framework="carbono">
@@ -22,7 +38,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="neon">
-            <img class="front-face" src="./img/neonMe.png" alt="neon" />
+            <img class="front-face" src="./img/neonIcon.png" alt="neon" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="neon">
@@ -30,7 +46,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="helio">
-            <img class="front-face" src="./img/helioMe.png" alt="helio" />
+            <img class="front-face" src="./img/helioIcon.png" alt="helio" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="helio">
@@ -38,7 +54,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="oxigeno">
-            <img class="front-face" src="./img/oxigenoMe.png" alt="oxigeno" />
+            <img class="front-face" src="./img/oxigenoIcon.png" alt="oxigeno" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="oxigeno">
@@ -46,7 +62,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="fluor">
-            <img class="front-face" src="./img/fluorMe.png" alt="fluor" />
+            <img class="front-face" src="./img/fluorIcon.png" alt="fluor" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="fluor">
@@ -54,7 +70,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="cloro">
-            <img class="front-face" src="./img/cloroMe.png" alt="cloro" />
+            <img class="front-face" src="./img/cloroIcon.png" alt="cloro" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="cloro">
@@ -62,7 +78,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="azufre">
-            <img class="front-face" src="./img/azufreMe.png" alt="azufre" />
+            <img class="front-face" src="./img/azufreIcon.png" alt="azufre" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="azufre">
@@ -70,7 +86,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="nitrogeno">
-            <img class="front-face" src="./img/nitrogenoMe.png" alt="nitrogeno" />
+            <img class="front-face" src="./img/nitrogenoIcon.png" alt="nitrogeno" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="nitrogeno">
@@ -78,7 +94,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="fosforo">
-            <img class="front-face" src="./img/fosforoMe.png" alt="fosforo" />
+            <img class="front-face" src="./img/fosforoIcon.png" alt="fosforo" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="fosforo">
@@ -86,7 +102,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="oro">
-            <img class="front-face" src="./img/oroMe.png" alt="oro" />
+            <img class="front-face" src="./img/oroIcon.png" alt="oro" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="oro">
@@ -94,7 +110,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="plata">
-            <img class="front-face" src="./img/plataMe.png" alt="plata" />
+            <img class="front-face" src="./img/plataIcon.png" alt="plata" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
 
@@ -104,7 +120,7 @@
           </div>
 
           <div class="memory-card" data-framework="cobre">
-            <img class="front-face" src="./img/cobreMe.png" alt="cobre" />
+            <img class="front-face" src="./img/cobreIcon.png" alt="cobre" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="cobre">
@@ -112,7 +128,7 @@
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
           <div class="memory-card" data-framework="aluminio">
-            <img class="front-face" src="./img/aluminioMe.png" alt="aluminio" />
+            <img class="front-face" src="./img/aluminioIcon.png" alt="aluminio" />
             <img class="back-face" src="./img/cardMe.png" alt="cardMe" />
           </div>
 

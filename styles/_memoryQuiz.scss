@@ -54,3 +54,38 @@
   .front-face {
 	transform: rotateY(180deg);
   }
+
+  #estrellas img{
+	  width: 50px;
+	 
+
+  }
+  .puntuacion{
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: center;
+	  
+  }
+
+  .puntuacion div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 25px;
+	margin-bottom: 10px;
+	
+}
+
+  .contador{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .matched{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
