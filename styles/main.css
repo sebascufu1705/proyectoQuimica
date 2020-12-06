@@ -31,6 +31,9 @@
 
 .h2--form {
   color: #BF66D6;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .hidden {
