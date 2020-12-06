@@ -24,7 +24,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: black;
+  color: #ae20d1;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -77,6 +77,16 @@
 .h3--progreso {
   margin-top: 10px;
   margin-left: 30px;
+  margin-bottom: 10px;
+  color: #f7f7f7;
+}
+
+.h3--inicio {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #f7f7f7;
+  margin-left: 20px;
+  margin-top: 7px;
   margin-bottom: 10px;
 }
 
@@ -247,10 +257,42 @@
   width: 90%;
 }
 
+.interaction {
+  width: 580px;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.memoryImg {
+  width: 400px;
+  height: 250px;
+}
+
+.quizImg {
+  width: 338px;
+  height: 300px;
+}
+
+.progressImg {
+  width: 642px;
+  height: 395px;
+}
+
+.periotableImg {
+  width: 642px;
+  height: 350px;
+}
+
 .normalText {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
+}
+
+.normalText--inicio {
+  padding: 20px;
+  color: #341d75;
+  text-align: justify;
 }
 
 .mainProgreso {
@@ -321,7 +363,7 @@
   display: flex;
   margin-bottom: 20px;
   background-image: url("../img/goalBack.png");
-  background-size: cover;
+  background-size: contain;
   border-radius: 15px;
   padding-right: 80px;
   padding-left: 20px;
@@ -333,6 +375,86 @@
 
 .goal--checked {
   background-image: url("../img/goalChecked.png");
+}
+
+.mainIni {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.allContainer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infoWrap {
+  width: 90%;
+  background: #FFC591;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.imgWrap {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffddbe;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.textWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
 }
 
 * {

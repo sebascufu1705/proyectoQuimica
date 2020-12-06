@@ -10,6 +10,9 @@ select.addEventListener('change', function(){
     if(game == 'memory'){
         window.location.href = 'memoria.html';
     }
+    if(game == 'quiz'){
+        window.location.href = 'https://sebascasti00.github.io/Quiz-Validation/';
+    }
 
 });
 

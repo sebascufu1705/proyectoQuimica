@@ -1,0 +1,42 @@
+.mainIni{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoWrap{
+    width: 90%;
+    background: #FFC591;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.imgWrap{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffddbe;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.textWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}

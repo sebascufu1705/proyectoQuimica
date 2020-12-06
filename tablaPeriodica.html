@@ -11,11 +11,13 @@
     <header class="header header--nav">
         <nav class="nav">
             <a href="inicio.html"><p>Inicio</p></a>
-            <select class="caja">
-                <option value="">Interacciones</option>
-                <option value="memory">Elements Memory Game</option>
-                <option value="quiz">Element Quiz</option>
-            </select>
+            <form class="select">
+                <select name="game" class="caja">
+                    <option value="">Interacciones</option>
+                    <option value="memory">Elements Memory Game</option>
+                    <option value="quiz">Element Quiz</option>
+                </select>
+            </form>
             <img class="logo logo--nav" src="./img/logo.png" alt="logo">
             <a href="progreso.html"><p>Progreso</p></a>
             <a href="#"><p>Tabla Periódica</p></a>
@@ -35,5 +37,6 @@
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
     <script src="./scripts/firebase.js"></script>
     <script src="./scripts/auth.js"></script>
+    <script src="./scripts/juegos.js"></script>
 </body>
 </html>
